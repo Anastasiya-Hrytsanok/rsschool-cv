@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <h1>Anastasiya Hrytsanok</h1>
+    <h3>Junior Frontend Developer</h3>
+    <hr />
+
+    <h4>Contact information:</h4>
+    <p>
+      <b>Phone:</b> +48789714403<br />
+      <b>E-mail:</b>nastyagritsenok@gmail.com<br />
+      <b>Telegram:</b>@levkart<br />
+      <a href="https://www.linkedin.com/in/anastasiya-hrytsanok-092801221/">LinkedIn</a>
+    </p>
+
+    <hr />
+
+    <h4>My goal:</h4>
+    To gain the necessary experience to hopefully become Front-end Developer.
+    <hr />
+
+    <h4>Education:</h4>
+    <b>Faculty of Economics and Management (economist-manager)</b><br />
+    <i>Belarus State Economic University / Minsk, Belarus</i><br />
+    <i>2019</i><br /><br />
+    <b>"Software Testing Introduction" course</b><br />
+    <i>EPAM Systems Inc. / Minsk, Belarus</i><br />
+    <i>2021</i><br /><br />
+    <b>"Front-end (JS + React)" course</b><br />
+    <i>IT Shatle / Minsk, Belarus</i><br />
+    <i>2022</i><br />
+    <hr />
+
+    <h4>Skills:</h4>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>SASS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git</li>
+      <li>npm</li>
+      <li>TypeScript</li>
+    </ul>
+    <hr />
+
+    <h4>Code example:</h4>
+    <pre>
+let printNumbers = (from, to) => {
+    if (from === to) {
+        console.log(from);
+    } else if (from &gt to) {
+        let plus = () => {
+            console.log(from);
+            if (from !== to) {
+                from = from + 1;
+            }
+        }
+        let timer = setInterval(plus, 1000);
+        setTimeout(() => clearInterval(timer), (to - from + 1) * 1000);
+    } else if (from > to) {
+        let minus = () => {
+            console.log(from);
+            if (from !== to) {
+                from = from - 1;
+            }
+        }
+        let timer = setInterval(minus, 1000);
+        setTimeout(() => clearInterval(timer), (from - to + 1) * 1000);
+    }
+}
+
+printNumbers(2, -10); 
+    </pre>
+    <hr />
+    <h4>Languages:</h4>
+    <ul>
+      <li><b>English</b>- Intermediate</li>
+      <li><b>Russian</b>- Native</li>
+    </ul>
+  </body>
+</html>
