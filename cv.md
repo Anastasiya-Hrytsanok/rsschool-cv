@@ -67,7 +67,5 @@ printNumbers(2, -10);
 <hr>
 
 #### Languages:
-- **English** - Intermediate
 - **Russian** - Native
-
-
+- **English** - Intermediate
