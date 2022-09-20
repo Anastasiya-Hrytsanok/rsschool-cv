@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+h5 {font-size: 1.1em;
+    color: rgb(250, 192, 0);
+}
+
+b {
+    color: rgb(250, 192, 0);
+}
+
+#about_me {
+    font-size: 1.7em;
+    margin: 10px 0 20px 0;
+}
+
+#surname, a {
+    color: rgb(250, 192, 0);
+
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.avatar {
+    background-color: rgb(45, 45, 46);
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    padding-right: 3%;
+}
+
+#avatar__foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid rgb(250, 192, 0);
+    margin-right: 10%;
+}
+
+.contact_info {
+    background-color: rgb(38, 38, 39);
+    padding-left: 5%;
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_info__container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+    border-top: 1px solid rgb(238, 236, 232);
+
+}
+
+.contact_info__container div {
+    margin: 20px 30px 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    width: 30vw;
+    padding-top: 15px;
+    padding-right: 3%;
+    display: flex;
+    justify-content: end;
+}
+
+.light_background {
+    background-color: rgb(45, 45, 46);
+}
+
+.dark_background {
+    background-color: rgb(38, 38, 39);
+}
+
+.content {
+    padding-left: 5%;
+    width: 70vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.languages__container ul {
+    list-style-type: none;
+}
+
+pre {
+    background-color: #979899;
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    width: fit-content;
+    padding-right: 5%;
+    color: black;
+}
+
+.skills__container ul {
+    list-style-type: '👉   ';
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+nav ul li{
+    margin: 5px 25px;
+}
+
+nav ul li a:hover {
+    color: rgb(253, 253, 253);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 15px 20px 5px 20px;
+}
+
+footer p {
+    text-align: right;
+    font-size: 0.8em;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
