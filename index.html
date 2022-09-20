@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Anastasiya Hrytsanok</title>
+  </head>
+
+  <body>
+    <nav>
+        <ul>
+            <li><a href="#avatar__foto">Contact info</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills ">Skills</a></li>
+            <li><a href="#code">Code example</a></li>
+            <li><a href="#languages ">Languages</a></li>
+        </ul>
+    </nav>
+    <header>
+      <div class="avatar">
+        <img id="avatar__foto" src="./foto.jpg" alt="foto">
+      </div>
+      <section class="contact_info">
+        <h1><span id="surname">Hrytsanok</span> Anastasiya</h1>
+        <p id="about_me">Junior Frontend Developer</p>
+        <div class="contact_info__container">
+          <div>
+            <h4>Location</h4>
+            <p>Wroclaw, Poland</p>
+          </div>
+          <div>
+            <h4>Phone number</h4>
+            <p>+48789714403</p>
+          </div>
+          <div>
+            <h4>Email</h4>
+            <p>nastyagritsenok@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="container" id="education">
+        <div class="title dark_background">
+          <h3>Education:</h3>
+        </div>
+        <div class="education__container content light_background">
+          <h5>Faculty of Economics and Management (economist-manager)</h5>
+          <p>
+            Belarus State Economic University / Minsk, Belarus<br>
+            <i>2019</i>
+          </p>
+          <h5>"Software Testing Introduction" course</h5>
+          <p>
+            EPAM Systems Inc. / Minsk, Belarus<br>
+            <i>2021</i>
+          </p>
+          <h5>"Front-end (JS + React)" course</h5>
+          <p>
+            IT Shatle / Minsk, Belarus<br>
+            <i>2022</i>
+          </p>
+        </div>
+      </section>
+      <section class="container" id="skills">
+        <div class="title light_background">
+          <h3>Skills:</h3>
+        </div>
+        <div class="skills__container content dark_background">
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SASS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git</li>
+            <li>npm</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+      </section>
+      <section class="container" id="code">
+        <div class="title dark_background">
+          <h3>Code example:</h3>
+        </div>
+        <div class="code__container content light_background">
+          <pre>
+              <code>
+    let printNumbers = (from, to) =&gt; {
+        if (from === to) {
+            console.log(from);
+        } else if (from &lt; to) {
+            let plus = () =&gt; {
+                console.log(from);
+                if (from !== to) {
+                    from = from + 1;
+                }
+            }
+            let timer = setInterval(plus, 1000);
+            setTimeout(() =&gt; clearInterval(timer), (to - from + 1) * 1000);
+        } else if (from &gt; to) {
+            let minus = () =&gt; {
+                console.log(from);
+                if (from !== to) {
+                    from = from - 1;
+                }
+            }
+            let timer = setInterval(minus, 1000);
+            setTimeout(() =&gt; clearInterval(timer), (from - to + 1) * 1000);
+        }
+    }
+    printNumbers(2, -10);
+                </code>
+                        </pre>
+        </div>
+      </section>
+      <section class="container" id="languages">
+        <div class="title light_background">
+          <h3>Languages:</h3>
+        </div>
+        <div class="languages__container content dark_background">
+          <ul>
+            <li><b>Russian</b> - Native</li>
+            <li><b>English</b> - Intermediate</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://vk.com/nastya_gritsenok"><img src="./svg/vk.svg" width="25" height="25" alt="vk"></a></li>
+            <li><a href="https://www.instagram.com/an_gritsenok/"><img src="./svg/instagram.svg" width="25" height="25" alt="instagram"></a></li>
+            <li><a href="https://rs.school/js/"><img src="./svg/rsschool.svg" height="25" alt="rsschool"></a></li>
+            <li><a href="https://www.linkedin.com/in/anastasiya-hrytsanok-092801221/"><img src="./svg/linkedin.svg" width="25" height="25" alt="linkedin"></a></li>
+            <li><a href="https://github.com/Anastasiya-Hrytsanok"><img src="./svg/github.svg" width="25" height="25" alt="github "></a></li>
+        </ul>
+        <p><i>Anastasiya Hrytsanok 2022</i></p>
+    </footer>
+  </body>
+</html>
