@@ -65,7 +65,3 @@ To gain the necessary experience to hopefully become Front-end Developer.
 printNumbers(2, -10);
 ```
 <hr>
-
-#### Languages:
-- **English** - Intermediate
-- **Russian** - Native
